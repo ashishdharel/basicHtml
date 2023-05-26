@@ -1,16 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Basic</title>
+        <style>
+            table,tr,th,td{
+                border:1px solid black;
+            
+            }
+            
+        </style>
+    </head>
+    <body>
+        <!--I am practicing html-->
 
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-</head>
-<body>
-    <h1>Hello</h1>
-    <p>I am ashish dharel</p>
-    
-</body>
+        <h1>Hello1</h1>
+        <h2>Hello1</h2>
+        <h3>Hello1</h3>
+        <h4>Hello1</h4>
+        <h5>Hello1</h5>
+        <h6>Hello1</h6>
+        <p>GO to html link<a href="https://www.w3schools.com/html/default.asp" target="_parent">here</a></p>
+        <div>
+            <a href="https://www.w3schools.com/html/default.asp" target="_parent">Html</a>
+            </div>
+            <div>
+            <img src="picture.jpg" alt="picture during sunset" height="200px" width="200px">
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Class</th>
+                    <th>Teacher</th>
+                    <th>Room</th>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Economics</td>
+                    <td>Rhys</td>
+                    <td>Ag12</td>
+                    <td>MWF</td>
+                    <td>9:00 to 10:15</td>
+                </tr>
+                <tr>
+                    <td>European History</td>
+                    <td>Brown</td>
+                    <td>RH9</td>
+                    <td>TR</td>
+                    <td>10:00 to 12:00</td>
+                </tr>
+                <tr>
+                    <td>Calculas II</td>
+                    <td>Simon</td>
+                    <td>RB255</td>
+                    <td>F</td>
+                    <td>17:00 to 20:00</td>
+                </tr>
+                <tr>
+                    <td>French</td>
+                    <td>McGinness</td>
+                    <td>AG9</td>
+                    <td>MWF</td>
+                    <td>11:30 to 12:50</td>
+                </tr>
+                <tr>
+                    <td>Computer Science</td>
+                    <td>Rogers</td>
+                    <td>RB13</td>
+                    <td>TRF</td>
+                    <td>15:00 to 16:00</td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursdsy</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 to 11:00</td>
+                    <td>open</td>
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>closed</td>
+                    <td>open</td>
+                </tr>
+                <tr>
+                    <td>11:00 to 12:00</td>
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>open</td>
+                </tr>
+                <tr>
+                    <td>12:00 to 14:00</td>
+                    <td>open</td>
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>closed</td>
+                    <td>open</td>
+                </tr>
+                <tr>
+                    <td>14:00 to 16:00</td>
+                    <td>open</td>
+                    <td>open</td>
+                    <td>open</td>
+                    <td>open</td>
+                    <td>closed</td>
+                </tr>
+                <tr>
+                    <td>16:00 to 18:00</td>
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>closed</td>
+                    <td>open</td>
+                    <td>closed</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="" method="POST"> 
+            <!-- Contact section -->
+            <div>
+                <!-- Recipient section  -->
+            <div>
+            <h4>Recipient Details</h4>
+            <label for="fullname">Full Name</label>
+            <br>
+            <input type="text" id="fullname">
+            <br>
+            <label for="phone">Telephone Number</label>
+            <br>
+            <input type="tel" id="phone">
+            <br>
+            <label for="address">Address</label>
+            <br>
+            <input type="text" id="address">
+            <br>
+            </div>
+            <!-- Sender section -->
+            <div>
+                        <h4>Sender Details</h4>
+                        <label for="fullname">Full Name</label>
+                        <br>
+                        <input type="text" id="fullname">
+                        <br>
+                        <label for="emailaddress">Email Address</label>
+                        <br>
+                        <input type="email" id="emailaddress">
+
+                    </div>
+                    </div>
+                    <!-- Order section -->
+                    <div>
+            <h4>Order</h4>
+            <label for="bouquet">Bouquet Type</label>
+            <br>
+            <select id="bouquet">
+                <option value="basic">Basic Bouquet-$24.99</option>
+                <option value="premium">Premium Bouquet-49.99</option>
+                <option value="premium-plus">Premium Bouquet-Chocolate-$69.99</option>
+                
+            </select>
+            <br>
+            <label for="message-textarea">Message</label>
+            <br>
+            <textarea name="message" id="message-textarea" cols="30" rows="10"></textarea>
+            <br>
+            <button type="submit">Checkout</button>
+
+        </div>
+
+        </form>
+
+        <table>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m</td>
+                <td rowspan="2">5:00 p.m</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m</td>
+                <td>11:00 a.m</td>
+                <td rowspan="2">Xpath</td>
+            </tr>
+            <tr>
+                <td>11:00 a.m</td>
+                <td>2:00 p.m</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m</td>
+                <td>5:00 p.m</td>
+                <td>XSL Transformation</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m</td>
+                <td>12:00 a.m</td>
+                <td>XSL Formatting Object</td>
+            </tr>
+
+
+        </table>
+
+    </body>
 </html>
